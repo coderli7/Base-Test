@@ -12,7 +12,7 @@ public class App
     }
 
     public void fun1(){
-        System.out.println("dddd");
+        System.out.println("funny");
     }
 }
 
