@@ -12,7 +12,7 @@ public class App
     }
 
     public void fun1(){
-        System.out.println("funny");
+        System.out.println("fuck");
     }
 }
 
