@@ -20,7 +20,9 @@ public class Demo1 {
         linkedList.add("c");
         linkedList.add("d");
         linkedList.add("e");
-
+        linkedList.add("f");
+        linkedList.add("g");
+        linkedList.add("i");
         Object a = linkedList.get(0);
         linkedList.remove(2);
         System.out.println(a);
