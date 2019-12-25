@@ -6,11 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Utils" />
+        <module name="Base-ArrAndCol" />
+        <module name="Base-Utils" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="ArrColTest" target="1.7" />
-    </bytecodeTargetLevel>
   </component>
 </project>
