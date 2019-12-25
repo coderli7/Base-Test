@@ -10,6 +10,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/ArrColTest/pom.xml" />
+        <option value="$PROJECT_DIR$/Base-Utils/pom.xml" />
       </set>
     </option>
   </component>

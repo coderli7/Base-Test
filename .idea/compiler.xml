@@ -7,8 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Base-ArrAndCol" />
-        <module name="Base-Utils" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Base-Utils" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
