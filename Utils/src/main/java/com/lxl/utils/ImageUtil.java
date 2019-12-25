@@ -11,6 +11,6 @@ public class ImageUtil {
 
     public static void main(String[] args) {
         System.out.println("this is my  img prj ！！！");
-        System.out.println("this is my  img prj ！！！");
+        System.out.println("this is my  img prj ！！！!!");
     }
 }
