@@ -19,6 +19,8 @@ public class Demo1 {
         linkedList.add("b");
         linkedList.add("c");
         linkedList.add("d");
+        linkedList.add("e");
+
         Object a = linkedList.get(0);
         linkedList.remove(2);
         System.out.println(a);
