@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Base-ArrAndCol" />
+        <module name="Base-Model" />
+        <module name="Base-MyUtils" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
