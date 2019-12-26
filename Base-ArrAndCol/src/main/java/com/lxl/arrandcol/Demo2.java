@@ -1,8 +1,5 @@
 package com.lxl.arrandcol;
 
-import com.sun.xml.internal.messaging.saaj.packaging.mime.util.LineInputStream;
-import org.apache.poi.util.SystemOutLogger;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -26,6 +23,23 @@ public class Demo2 {
         list.add("1");
         list.add("1");
         list.add("1");
+
+
+        list.add("1");
+        list.add("1");
+        list.add("1");
+        list.add("1");
+        list.add("1");
+        list.add("1");
+        list.add("1");
+        list.add("2");
+        list.add("3");
+        list.add("3");
+        list.add("3");
+        list.add("3");
+        list.add("3");
+        list.add("3");
+        list.add("3");
 
         System.out.println(list);
 
