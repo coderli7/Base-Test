@@ -6,13 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ArrAndCol" />
         <module name="Base-ArrAndCol" />
         <module name="Base-Model" />
         <module name="Base-MyUtils" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Base-Utils" target="1.7" />
-    </bytecodeTargetLevel>
   </component>
 </project>
