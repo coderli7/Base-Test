@@ -12,8 +12,6 @@ import java.util.LinkedList;
 public class Demo1 {
 
     public static void main(String[] args) {
-
-
         LinkedList linkedList=new LinkedList();
         linkedList.add("a");
         linkedList.add("b");
@@ -22,6 +20,9 @@ public class Demo1 {
         linkedList.add("e");
         linkedList.add("f");
         linkedList.add("g");
+        linkedList.add("i");
+        linkedList.add("i");
+        linkedList.add("i");
         linkedList.add("i");
         Object a = linkedList.get(0);
         linkedList.remove(2);
