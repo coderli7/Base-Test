@@ -14,6 +14,10 @@
         <module>Base-MyUtils</module>
         <module>Fastdfs-Demo</module>
         <module>Spring-Redis</module>
+        <module>MongoDB-Demo</module>
+        <module>MutiThread-Demo</module>
+        <module>Active-MQ</module>
+        <module>RabbitMQ</module>
     </modules>
     <name>Base-Test</name>
 
@@ -58,7 +62,6 @@
             <artifactId>easyexcel</artifactId>
             <version>2.1.4</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>

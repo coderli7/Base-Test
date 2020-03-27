@@ -13,7 +13,7 @@ import java.io.IOException;
  * @Date 2020/3/8  19:43
  * Version 1.0
  **/
-public class FastdfsDemo129 {
+public class FastdfsDemo130 {
 
     public static void main(String[] args) {
         try {
@@ -29,10 +29,17 @@ public class FastdfsDemo129 {
             // logger.info(fileId);
             System.out.println(fileId);
         } catch (IOException e) {
+            // TODO Auto-generated catch block
             e.printStackTrace();
         } catch (MyException e) {
+            // TODO Auto-generated catch block
             e.printStackTrace();
         }
+    }
+
+
+    public void fun1() {
+
     }
 
 

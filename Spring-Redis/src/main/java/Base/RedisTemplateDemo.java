@@ -45,7 +45,7 @@ public class RedisTemplateDemo {
 
     @Test
     public void fun2() {
-        String redisVal = (String) redisTemplate.boundValueOps("TXKJ").get();
+        String redisVal = (String) redisTemplate.boundValueOps("TXKJ1").get();
         System.out.println(redisVal);
     }
 
