@@ -17,9 +17,8 @@ public class Demo1 {
 
     public static void main(String[] args) {
 
-        //死锁测试
+        // 死锁测试
         new Thread(() -> {
-            
             synchronized (resource1) {
                 System.out.println(Thread.currentThread() + "得到了resource1的锁!");
                 //先锁住1,后等待，是为了让出cpu
