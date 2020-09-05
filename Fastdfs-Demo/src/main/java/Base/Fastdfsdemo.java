@@ -20,7 +20,6 @@ public class Fastdfsdemo {
 
         try {
             ClientGlobal.initByProperties("fastdfs-client.properties");
-
             TrackerClient tracker = new TrackerClient();
             TrackerServer trackerServer = tracker.getConnection();
             StorageServer storageServer = null;
@@ -29,6 +28,8 @@ public class Fastdfsdemo {
             NameValuePair nvp[] = null;
             // 上传到文件系统
             String fileId = client.upload_file1("D:/1.jpg", "jpg", nvp);
+            // String fileId = client.upload_file1("D:/2.png", "png", nvp);
+            // String fileId = client.upload_file1("D:/2.txt", "txt", nvp);
             // logger.info(fileId);
             System.out.println(fileId);
         } catch (IOException e) {
