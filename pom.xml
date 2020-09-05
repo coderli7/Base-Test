@@ -18,6 +18,10 @@
         <module>MutiThread-Demo</module>
         <module>Active-MQ</module>
         <module>RabbitMQ</module>
+        <module>GeneratorSqlmapCustom</module>
+        <module>Baidu-API</module>
+        <module>Basic</module>
+        <module>Common-Models</module>
     </modules>
     <name>Base-Test</name>
 
@@ -116,6 +120,13 @@
             <version>${spring.version}</version>
         </dependency>
 
+
+        <!--百度api识别-->
+        <dependency>
+            <groupId>com.baidu.aip</groupId>
+            <artifactId>java-sdk</artifactId>
+            <version>4.15.1</version>
+        </dependency>
 
     </dependencies>
 
