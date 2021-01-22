@@ -32,7 +32,6 @@ public class GeneratorSqlmap {
         String path1 = url.getPath();
         System.out.println(path1);
 
-
 /*//文件的实际路径
 		String realPath = url.getPath();
 

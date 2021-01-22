@@ -11,7 +11,7 @@
 		</commentGenerator>
 		<!--数据库连接的信息：驱动类、连接地址、用户名、密码 -->
 		<jdbcConnection driverClass="com.mysql.jdbc.Driver"
-			connectionURL="jdbc:mysql://127.0.0.1:3306/webtool" userId="root"
+			connectionURL="jdbc:mysql://192.168.5.53:3306/webtool" userId="root"
 			password="123456">
 		</jdbcConnection>
 		<!-- <jdbcConnection driverClass="oracle.jdbc.OracleDriver" connectionURL="jdbc:oracle:thin:@127.0.0.1:1521:yycg" 
@@ -25,7 +25,7 @@
 
 		<!-- targetProject:生成PO类的位置 -->
 		<javaModelGenerator targetPackage="com.lxl.webtool.dao.pojo"
-			targetProject=".\src">
+			targetProject="D:/">
 			<!-- enableSubPackages:是否让schema作为包的后缀 -->
 			<property name="enableSubPackages" value="false" />
 			<!-- 从数据库返回的值被清理前后的空格 -->
@@ -42,12 +42,13 @@
 
 		<!-- targetPackage：mapper接口生成的位置 -->
 		<javaClientGenerator type="XMLMAPPER"
-			targetPackage="com.lxl.webtool.dao.mapper" targetProject=".\src">
+			targetPackage="com.lxl.webtool.dao.mapper" targetProject="D:/">
 			<!-- enableSubPackages:是否让schema作为包的后缀 -->
 			<property name="enableSubPackages" value="false" />
 		</javaClientGenerator>
+
 		<!-- 指定数据库表 -->
-		<table schema="" tableName="tb_file"></table>
+		<table schema="" tableName="tb_bh_version"></table>
 
 		<!-- 有些表的字段需要指定java类型 <table schema="" tableName=""> <columnOverride column="" 
 			javaType="" /> </table> -->
